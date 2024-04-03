@@ -1,0 +1,105 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+height: 100%;
+width: 100%;
+overflow: hidden;
+}
+
+.page{
+    width: 100vmax;
+    height: 100vmin;
+    background-image: url(https://images.unsplash.com/reserve/bOvf94dPRxWu0u3QsPjF_tree.jpg?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3%;
+    font-size: 25px;
+    padding-top: 4%;
+}
+
+#name{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    font-size: 20px;
+    padding-right: 46%;
+}
+
+.box1{
+    width: 300px;
+    height: 350px;
+    background-image: url(https://plus.unsplash.com/premium_photo-1675827055620-24d540e0892a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dHJlZXxlbnwwfDF8MHx8fDA%3D);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    opacity: 0;
+}
+
+.box2{
+    width: 300px;
+    height: 350px;
+    background-image: url(https://images.unsplash.com/photo-1421790500381-fc9b5996f343?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dHJlZXxlbnwwfDF8MHx8fDA%3D);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    position: absolute;
+    top: 100%;
+    left: 40%;
+    opacity: 0;
+ 
+}
+
+
+.page i{
+    width: 3vw;
+    height: 3vw;
+    position: absolute;
+    top: 5%;
+    right: 4%;
+    font-size: 25px;
+    font-weight: 900;
+    background-color: rgb(51, 51, 51);
+    border-radius: 50%;
+    padding-left: 0.7%;
+    padding-top: 0.6%;
+    color: white;
+    z-index: 11;
+}
+
+.box3{
+    width: 40%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.269);
+    backdrop-filter: blur(10px);
+    margin-left: 60%;
+    margin-top: -6.8%;
+    padding-left: 5%;
+    padding-top: 5%;
+    line-height: 90px;
+    font-weight: 900;
+    font-size: 20px;
+    
+}
+
+.box3 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
